@@ -8,7 +8,7 @@
     "devserver": "live-server --browser=firefox",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss  css/style.comp.css --use  autoprefixer  -d css/style.prefix.css",
+    "prefix:css": "postcss css/style.comp.css --use  autoprefixer  -o css/style.prefix.css",
 
 
 
