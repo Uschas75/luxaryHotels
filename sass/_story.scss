@@ -1,6 +1,5 @@
 .story{
   &__pictures{
-
     grid-column: full-start / col-end 4;
     background-image:linear-gradient(rgba($color-primary, .8) ,rgba($color-primary, .8)) ,url("../img/person-1.jpg");
     background-size: cover;
